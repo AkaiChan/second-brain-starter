@@ -1,0 +1,32 @@
+---
+description: Obsidian PARA+Zettel vault — note structure, OFM, Git, and agent limits
+alwaysApply: true
+---
+
+# Second Brain Template Vault
+
+This workspace is an **Obsidian vault** (PARA + Zettelkasten), not an app repo. See root `AGENTS.md`, `README.md`, and `README.en.md`.
+
+## Structure
+
+- `0-Inbox` staging → weekly via `7-Templates/WeeklyInboxRitual.md`
+- `1-Projects` finishable｜`2-Areas` ongoing｜`3-Resources` reference
+- `5-Zettelkasten` one idea each｜`6-DailyNotes/YYYY-MM-DD.md`
+- Unsure → `0-Inbox` or ask
+
+## Markdown
+
+- Wikilink `[[Note]]`; external URLs use normal Markdown links
+- Before editing `.md`: if `.cursor/skills/obsidian-markdown/SKILL.md` exists, read it and follow OFM
+- Match the user’s language (Traditional Chinese ↔ Chinese notes; English ↔ English notes)
+
+## Git
+
+- Commit/push only when the user **explicitly asks**
+- Do not change git config; do not force-push
+- Do not commit `.obsidian/workspace.json` or plugin `data.json` (see `.gitignore`)
+
+## Change policy
+
+- Minimal diffs; do not delete top-level PARA folders; do not turn this template into a private workflow
+- Long-term projects may use Plan + Dashboard + Daily (see README)
